@@ -33,7 +33,8 @@ Bu haberleşmede, mesajlar özel moleküller aracılığıyla alıcıya iletilir
 Biyo alanda nanoteknolojinin gelişmesiyle birlikte hücresel düzeyde iletişimin incelenmesi ve anlaşılması özellikle önem kazanmıştır. Bu alanda basit görevleri yerine getirebilen nanorobot ve genetiği değiştirilmiş hücreler gibi mikroskopik ölçekteki biyolojik makinelerin üretimi en çok üzerinde durulan noktadır.  Henüz ticari boyutta bir uygulaması olmasa da, laboratuvar ortamında geliştirilmeye devam edilen bu nanomakinelerin en önemli uygulama alanının insan vücudu içindeki ilaç dağıtımı, kanser tedavisi ve sağlık göstergelerinin izlenmesi gibi uygulamalar olacağı öngörülmektedir [3]. 
 
 Bu haberleşme türü beraberinde nanonetwork kavramını da doğurmaktadır. Bir nanomakinenin kapasitesi kısıtlı olduğundan insan vücudu içine bir nanomakine sürüsü olarak zerk edilmesi gerekmektedir. Bu sürüde dikkat edilmesi gereken konu ise sağlıklı hücrelere zarar vermeden, kanserli hücreleri yok etmek veya ilaç dağıtmak gibi uygulamaları oldukça karmaşık bir yapıya sahip insan vücududur. Böylesi bir durumun üstesinden gelinebilmesi, nanomakinelerin bir nanonetwork halinde çalışması ile mümkündür. Nanomakineler düzeyinde moleküler iletişim Şekil 3.1’de görselleştirilmiştir [1,3]. 
- 
+
+ ![](https://user-images.githubusercontent.com/46966075/86845803-b022be00-c0b2-11ea-8b76-2a231854aaaa.png)
 - Şekil 3.1: İki Nokta Arasındaki Moleküler Nanonetwork
      (Görsel 13 numaralı kaynaktan alınmıştır.)
 
@@ -45,7 +46,9 @@ Elektromanyetik düzeyde iletişim, elektromanyetik radyasyonun alınması ve il
 Terahertz (THz) dalgaları elektromanyetik spektrumunda genellikle 0.1 ile 10 THz aralığında değişen, limitleri tam olarak belirlenememiş elektromanyetik dalgalardır. Genel olarak, T-ışınları, Tışık, T-lux, THz olarak da karşımıza çıkabilmektedir. THz dalgaları elektromanyetik spektrumundaki yerine rağmen, fazla keşfedilmemiş yeniliklere ve yeni araştırma alanlarına açık bir bant aralığıdır. THz dalgaları hemen hemen her maddeden belli bir derecede geçebilmektedir. Ancak, su ve metalde THz dalgaların emilimi kat ve kat azalmaktadır. THz dalgaları belli frekanslarda geçtiği moleküllerin titreşmesine neden olur. Titreşen moleküller THz dalgaların geçmesini zorlaştırır. Bu nedenle, THz dalgaların iletişim mesafesini artırabilmek için THz dalgalarının uygulandığı maddenin titreşimsiz frekans aralığı araştırmalı yani geçiş pencereleri bulunmalıdır. THZ dalgalarının birçok kullanım alanı vardır. Sadece kablosuz iletişimde değil aynı zamanda görüntüleme teknolojilerinde, savunma sanayinde, nesnelerin internetinde, nano telsiz ağlarının haberleşmesi gibi yeni teknolojilerin önünün açılmasına olanak sağlamaktadır [6]. 
 
 Şekil 3.2’de THz dalgaları elektromanyetik spektrumun üzerinde gösterilmiştir. Aynı zamanda, görüntüleme teknolojisinde kullanılan THz dalgaları X-ışınlarına nazaran daha az zararlıdır. Bunun nedeni, THz dalgalarının dokuları iyonize etmemesidir. Bu özelliği sayesinde anlık görüntülemede ya da diğer röntgen işlemlerinde kullanılmaktadır. 
-  
+
+  ![](https://user-images.githubusercontent.com/46966075/86845809-b153eb00-c0b2-11ea-97cc-838d06ed16a9.png)
+
 - Şekil 3.2: THz Dalgalarının Elektromanyetik Spektrumunda Gösterilmesi
                                   (Görsel 15 numaralı kaynaktan alınmıştır.)
 
@@ -53,11 +56,14 @@ THz iletişimi, kablosuz iletişimin hızına artan talebi karşılamak için da
 
 ### 3.1.	Önerilen Tasarım Mimarisi
 Nanonetwork mimari olarak beş katmanda (Şekil 3.3) irdelenmektedir. İlki nano-network katmanıdır. Bu katman, fiziksel nano aygıtları içeren fiziksel katmanı temsil eder.  İkinci katman SDN katmanıdır. Bu katman nano aygıtlar arasında akıllı veri dağıtımından sorumlu olan katmandır. 
- 
+
+ ![](https://user-images.githubusercontent.com/46966075/86845810-b2851800-c0b2-11ea-9b82-e7ee2e9e95f1.png)
 - Şekil 3.3: Nanonetwork Mimarisi Katmanları
 
 Üçüncüsü katman Nesnelerin İnterneti (IoT) katmanıdır. Bu katman, veri sağlama ve yönetmeden katmandır.  Dördüncü katman, adresleme ve yerel hesaplamalardan sorumlu olan Fog Computing katmanıdır. Beşinci ve son katman ise NFV katmanıdır. Bu katman, küresel hesaplamalar ve karar verme sürecinden sorumludur. Tüm bu katmanlar arası iletişim Şekil 3.4’te şematiğe dökülmüştür.
  
+ ![](https://user-images.githubusercontent.com/46966075/86845812-b31dae80-c0b2-11ea-8aa7-899f2d9f36ef.png)
+
 - Şekil 3.4: Nanonetwork Mimari Şeması
 ### 3.2.	Nanonetwork Uygulama Alanları
 Nanonetwork için potansiyel uygulama alanı neredeyse sınırsızdır. Hemen her alanda kullanılabilir, mükemmel seviyede gelişmiş bir teknolojidir. Bununla birlikte üzerinde çalışılan ana uygulama alanları mevcuttur. Biyoloji bilimi alanında geliştirilen uygulamalar bu alanların başta gelmektedir. Bununla birlikte, endüstriyel alanda, çevresel alanda ve askeri alanda oldukça önemli görevlerde yer almaktadır.
@@ -65,6 +71,8 @@ Nanonetwork için potansiyel uygulama alanı neredeyse sınırsızdır. Hemen he
 #### 3.2.1.	Biyoloji Bilimi Alanında Uygulamalar
 Nano makinelerin en acil kullanımları biyomedikal alanındadır. Vücut içi sağlık izleme ve ilaç verme sistemleri, bağışıklık sistemi destek mekanizmaları ve yapay biyo-hibrit implantlar nanonetwork özelinde hayati önem taşımaktadır. Özellikle kanser ve benzeri insan hayatını tehlikeye atan problemlerin çözümünde nanonetwork tabanlı nano boyutlu çalışmalar hayati önem taşımaktadır. Bu durum Şekil 3.5’te şematiğe dökülmüştür.
  
+ ![](https://user-images.githubusercontent.com/46966075/86845814-b3b64500-c0b2-11ea-84c7-e002567435bb.png)
+
 - Şekil 3.5: Biyoloji Biliminde Nanonetwork (Görsel 16 numaralı kaynaktan alınmıştır.
 
 Şekilde verilen biyolojik nanonetwork örneğinde a ile belirtilen kısım bakteriler arasındaki nanonetwork iletişimi ifade etmektedir. Pasif ve aktif taşıma, küçük ölçekli ağlarda bilgi alışverişi için uygundur. Bununla birlikte, büyük ölçekli nanonetworkler için, sensörler ve çoklu flagella motorları ile kendiliğinden çalışan bakterilere dayanan iletişim, en umut verici yaklaşımlardan biri olarak kabul edilir. Şekilde b olarak verilen kısımda ise kanser hücreleri üzerinde uygulanan nanonetwork iletişimi gösterilmiştir. Bu görsel, halihazırda üzerinde çok durulan ilaç verme sistemini temsil etmektedir. Bu sistemde kanser hücrelerinin çevreye bıraktığı çeşitli kimyasallar üzerinden çalışma gerçekleştirilir. Buna bağlı olarak nanonetwork iletişimi gerçekleştiren bakteriler için bu kimyasallar çekici durumundadır. Tüm bu sistemlerin kullanılması ile kemo-çekici olarak görev yapan ilaç verme sistem oluşturulmuştur.
@@ -85,10 +93,14 @@ Nanonetwork sistemlerin en çok kullanıldığı alanların başında askeri ala
 
 Bu durumu en iyi anlayabilmemizi sağlayacak görsel Şekil 3.6’da verilmiştir. Aslında bu görsel nanonetwork çalışmalarının özeti gibidir. 
  
+ ![](https://user-images.githubusercontent.com/46966075/86845818-b44edb80-c0b2-11ea-9644-94604bbacd02.png)
+
 - Şekil 3.6: Nanonetwork Uygulaması
 
 Görselden de anlaşılabileceği gibi oluşturulan sistem insan vücuduyla entegre çalışmaktadır. Nano boyutta insan vücudunu dinlemekte ve iletişime geçmektedir. Bu iletişim kayda alınmakta ve izlenmektedir. Böylece, elde edilen sonuçlar ışığında kararlar ve çalışmalar ortaya çıkmaktadır. Askeri alanda kullanılan en önemli sistemlerin başında akıllı teçhizatlar gelmektedir. Şekil 3.7 de verilen sistem halihazırda kullanılmaktadır.
  
+ ![](https://user-images.githubusercontent.com/46966075/86845820-b44edb80-c0b2-11ea-8314-6172ba2b85b8.png)
+
 - Şekil 3.7: Akıllı Teçhizatlar
 
 Kullanılan sistem sahada yer alan askerin tüm sistemleri ile entegre halde çalışmaktadır. Görüntü, ses ve hayati fonksiyon gibi tüm değerler anlık takip edilmektedir. Özellikle vücudunun dinlenmesi konusu hayati önem taşımaktadır. Anlık nabız sayısından nefes sıklığına kadar her şey o an bulunduğu durumla ilgili bilgi almamızı sağlar. Bu sistemlerin oluşması ise sadece nanonetwork sistemlerin kullanılması ve geliştirilmesi ile mümkündür.
